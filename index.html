@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="//db.onlinewebfonts.com/c/89248b0583721153668df86453b579de?family=Halyard+Text+Regular" rel="stylesheet" type="text/css"/>
     <title>Digits</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <div class="container container__header">
             <a href="./index.html" class="header__logo__link"><img src="./img/logo.svg" alt="DIGITS" class="header__logo__img"></a>
-            <nav class="navigation__header">
+            <nav class="navigation navigation__header">
                 <a href="#" class="navigation__link">Homepages</a>
                 <a href="#" class="navigation__link">Products</a>
                 <!--
@@ -28,8 +29,8 @@
                 <a href="#" class="navigation__link">Pricing</a>
                 <a href="#" class="navigation__link">Blog</a>
             </nav>
-            <a href="tel:+00123456789" class="header__tel">+00 123 456 789</a>
-            <button class="contactus__button">Contact Us</button>
+            <a href="tel:+00123456789" class="header__tel number__contact">+00 123 456 789</a>
+            <button class="contactus__button contact button__hover">Contact Us</button>
         </div>
     </header>
     <section class="section__promo">
@@ -39,8 +40,8 @@
                 <p class="promo__desc">For everyone, from beginners to experts</p> 
             </div>
             <div class="promo__buttons">
-                <button class="buy-digits__button">Buy Digits</button>
-                <button class="white__button">See the Features</button>
+                <button class="buy-digits__button button__hover">Buy Digits</button>
+                <button class="white__button button__hover">See the Features</button>
             </div>
             <div class="graphic">
                 <img class="graphicsvg" src="img/Graphic.png" alt="graphic">
@@ -61,35 +62,49 @@
                 <img src="img/google.png" alt="google" class="partner">
                 <img src="img/disney.png" alt="disney" class="partner">
             </div>
-            <h2 class="clients__title">Whatever work you do, we're able to help</h2>
-            <div class="team__ability">
-                <img class="image__position__team" src="img/team.png" alt="team">
-                <div class="ability__column">
-                    <div class="ability__line first__line">
-                        <h3 class="ability__name">Design and Assets</h3>
-                        <p class="ability__content">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
-                    </div>
-                    <div class="ability__line second__line">
-                        <h3 class="ability__name">Easy Content</h3>
-                        <p class="ability__content">Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
-                    </div>
-                    <div class="ability__line third__line">
-                        <h3 class="ability__name">Fast and Reliable</h3>
-                        <p class="ability__content">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
-                    </div>
-                </div>
-                <!-- /.wecancolumn -->
-            </div>
-        </div>
-        <!-- /.container container_clients -->
     </section>
     <!-- /.section__clients -->
+    <section class="abilities__section design">
+        <div class="container abilities">        
+        <h2 class="title__about">Whatever work you do,<br> we're able to help</h2>
+        <div class="about">
+            <img src="img/team.png" alt="thee people" class="guys__img">
+            <div class="design ">
+                <div class="about__block ">
+                    <img src="img/figmalogo.svg" alt="" class="img__icon">
+                    <div class="txt__inside">
+                        <h3 class="tittle__aboutinside">Design and Assets</h3>
+                        <p class="txt__about">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
+                    </div>
+                </div>
+    
+                <div class="about__block ">
+                    <img src="img/contentlogo.svg" alt="" class="img__icon">
+                    <div class="txt__inside">
+                        <h3 class="tittle__aboutinside">Easy Content</h3>
+                        <p class="txt__about">Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
+                    </div>
+                </div>
+    
+                <div class="about__block ">
+                    <img src="img/lightninglogo.svg" alt="" class="img__icon">
+                    <div class="txt__inside">
+                        <h3 class="tittle__aboutinside">Fast and Reliable</h3>
+                        <p class="txt__about">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- /.about -->
+    </section>
+    <!-- /.about -->
     <section class="section__drafts">
         <div class="container container__drafts">
             <div class="drafts__elements">
                <h2 class="drafts__title">Simplicity meets innovative design</h2>
                 <p class="drafts__content">It's really easy to start using Digits. <br> Install the theme, choose a demo and start designing the future of your business!</p>
-                <button class="buy-digits__button">Buy Digits</button>
+                <button class="buy-digits__button button__hover">Buy Digits</button>
             </div>
             <!-- /.drafts__elements -->
             
@@ -100,22 +115,22 @@
     <section class="section__reviews">
         <div class="container container__reviews">
             <h2 class="reviews__title">What others are saying</h2>
-            <div class="reviews__box">
-                <div class="review__box">
+            <div class="reviews__box review__all">
+                <div class="review__box review__one">
                     <p class="review__content">Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!</p>
                     <img class="profilephoto" src="./img/firstwoman.png" alt="profilephoto">
                     <a href="#" class="profilenamelink"><h3 class="profilename">Happy User</h3></a>
                     <a href="#" class="review__sitelink">tempy.club</a>
                 </div>
                 <!-- /.review__box -->  
-                <div class="review__box">
+                <div class="review__box review__one">
                     <p class="review__content">Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
                     <img class="profilephoto" src="./img/firstman.png" alt="profilephoto">
                     <a href="#" class="profilenamelink"><h3 class="profilename">Happy User</h3></a>
                     <a href="#" class="review__sitelink">tempy.club</a>
                 </div>
                 <!-- /.review__box -->  
-                <div class="review__box">
+                <div class="review__box review__one">
                     <p class="review__content">Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.</p>
                     <img class="profilephoto" src="./img/secondwoman.png" alt="profilephoto">
                     <a href="#" class="profilenamelink"><h3 class="profilename">Happy User</h3></a>
@@ -133,68 +148,55 @@
         <div class="container container__intouch">
             <h2 class="intouch__title">Ready to launch your next website?</h2>
             <div class="intouch__box">
-                <button class="intouch__button">Get in touch now</button>
+                <button class="intouch__button button__hover">Get in touch now</button>
                 <p class="takeapeek">Or, take a peek inside our <a href="#" class="studiolink">design studio</a></p>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <div class="container container__footer">
-            <div class="footer__top">
-                <div class="footer__column__one">
-                    <a href="./index.html" class="footer__logo__link"><img src="./img/logo.svg" alt="DIGITS" class="footer__logo__img"></a>
-                    <p class="footer__text">Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
-                </div>
-                <!-- /.footer__column__one --> 
-                <div class="footer__column__two">
-                    <h3 class="footer__titles">Pages</h3>
-                    <ul class="footer__ul">
-                        <li class="footer__text"><a href="#" class="footer__links">Home</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">About</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">News</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Pricing</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.footer__column__two -->
-                <div class="footer__column__two">
-                    <h3 class="footer__titles">Demos</h3>
-                    <ul class="footer__ul">
-                        <li class="footer__text"><a href="#" class="footer__links">Classic</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Boxy</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Gradient</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Minimal</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Night</a></li>
-                    </ul>
-                </div>
-                <!-- /.footer__column__two -->
-                <div class="footer__column__two">
-                    <h3 class="footer__titles">Resources</h3>
-                    <div class="social__box">
-                        <a href="#" class="social__link"><img src="./img/icon-facebook.svg" alt="social__icon" class="social__icon"></a>
-                        <a href="#" class="social__link"><img src="./img/icon-instagram.svg" alt="social__icon" class="social__icon"></a>
-                        <a href="#" class="social__link"><img src="./img/icon-twitter.svg" alt="social__icon" class="social__icon"></a>
-                        <a href="#" class="social__link"><img src="./img/icon-dribbble.svg" alt="social__icon" class="social__icon"></a>
-                        <a href="#" class="social__link"><img src="./img/icon-envato.svg" alt="social__icon" class="social__icon"></a>
+        <div class="footer__div container">
+            <div class="digits__txt">
+                <img src="img/logo.svg" alt="logo" class="footer__logo">
+                <p class="footer__txt">Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
+            </div>
+            <div class="footer__pages pages">
+                <h4 class="pages__title">Pages</h4>
+                <p class="pages__txt">Home</p>
+                <p class="pages__txt">About</p>
+                <p class="pages__txt">News</p>
+                <p class="pages__txt">Pricing</p>
+                <p class="pages__txt">Contacts</p>
+            </div>
+            <div class="footer__pages demos">
+                <h4 class="pages__title">Demos</h4>
+                <p class="pages__txt">Classic</p>
+                <p class="pages__txt">Boxy</p>
+                <p class="pages__txt">Gradient</p>
+                <p class="pages__txt">Minimal</p>
+                <p class="pages__txt">Night</p>
+            </div>
+            <div class="footer__pages resources">
+                <h4 class="pages__title">Resources</h4>
+                    <div class="soc__footer">
+                        <img src="img/icon-facebook.svg" alt="facebook" class="soc__img">
+                        <img src="img/icon-instagram.svg" alt="instagram" class="soc__img">
+                        <img src="img/icon-twitter.svg" alt="twitter" class="soc__img">
+                        <img src="img/icon-dribbble.svg" alt="dribble" class="soc__img">
+                        <img src="img/icon-envato.svg" alt="envato" class="soc__img">
                     </div>
-                    <ul class="footer__ul">
-                        <li class="footer__text"><a href="#" class="footer__links">Download now</a></li>
-                        <li class="footer__text"><a href="#" class="footer__links">Documentation</a></li>
-                    </ul>
-                </div>
-                <!-- /.footer__column__two -->
+                <p class="pages__txt">Download now</p>
+                <p class="pages__txt">Documentation</p>
             </div>
-            <!-- /.footer__top -->
-            <div class="footer__bottom">
-                <p class="copyright">Copyright © 2020 tempy.club</p>
-                <div class="privacylinks__box">
-                    <a href="#" class="privacylinks">Privacy Policy</a>
-                    <a href="#" class="privacylinks">Terms of Use</a>
-                    <a href="#" class="privacylinks">GDPR</a>
-                </div>
-            </div>
-            <!-- /.footer__bottom -->
         </div>
+        <div class="footer__copyright container">
+            <p class="copyright">Copyright © 2020 tempy.club</p>
+            <div class="copyright__else">
+                <p class="ptg">Privacy Policy</p>
+                <p class="ptg">Terms of Use</p>
+                <p class="ptg">GDPR</p>
+            </div>
+        </div>
+        <!-- /.footer__div -->
     </footer>
     <!-- /.footer -->
 </body>
